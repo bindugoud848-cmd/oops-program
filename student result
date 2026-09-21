@@ -1,0 +1,29 @@
+class student:
+  name="bindhu"
+  rollno=1
+  phy=40
+  chem=10
+  maths=10
+  def totalmarks(self):
+      tmarks=self.phy+self.chem+self.maths
+      print(tmarks)
+  def average(self):
+      tmarks=self.phy+self.chem+self.maths
+      avg=tmarks/3
+      print(avg)
+  def grade(self):
+    tmarks=self.phy+self.chem+self.maths
+    if(tmarks>90):
+      print("grade A")
+    elif((tmarks>=75)&(tmarks<=89)):
+      print("grade B")
+    elif((tmarks>=60)&(tmarks<=74)):
+      print("grade C")
+    elif((tmarks>=40)&(tmarks<=50)):
+      print("grade D")
+    else:
+      print("fail")
+s=student()
+s.totalmarks()
+s.average()
+s.grade()
