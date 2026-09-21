@@ -1,0 +1,9 @@
+class Demo():
+def addition(self,a,b):
+print(a,b)
+d1=demo()
+d2=demo()
+d3=demo()
+d1.addition(30,40)
+d2.addition(20,40)
+d3.addition(40,50)
